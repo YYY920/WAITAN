@@ -1,0 +1,22 @@
+<!--pages/lineDetail/lineDetail.wxml-->
+<view class="page__bd">
+  <view class="to-online img-div ">
+    <image src="../../images/back.png" bindtap="toOnline" />
+  </view>
+  <view class="big-div">
+  <image src="{{bigImg}}" mode="widthFix" />
+</view>
+  <swiper previous-margin='50px'  autoplay 	interval="3000" next-margin='50px' bindchange="swiperChange" style='height:{{imgH}};'>
+　　<swiper-item wx:for='{{imgList}}' wx:key=''>
+　　　　<image class='le-img {{nowIdx==index?"le-active":""}}' bindload='getHeight' src='{{item}}' style='height:{{swiperH}};'></image>
+　　</swiper-item>
+</swiper>
+<view class="text">
+  <!-- <image src="{{imgUrl}}" mode="widthFix" /> -->
+  <text>
+    {{detailText}}
+  </text>
+</view>
+ 
+  <!-- <view class="btn" bindtap="tapName"></view> -->
+</view>

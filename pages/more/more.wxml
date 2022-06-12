@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="page__bd">
+  <view class="to-login" bindtap="toLogin"></view>
+  <image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/ALL/构件、我的页-背景2.png" mode="scaleToFill" style="height: 115%;"/>
+  <view class="btn" bindtap="tapName"></view>
+</view>

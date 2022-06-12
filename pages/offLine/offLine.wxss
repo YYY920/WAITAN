@@ -1,0 +1,51 @@
+/* pages/offLine/offLine.wxss */
+.page__bd{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://6465-dev-sgb12-1256211978.tcb.qcloud.la/audio/offLine.png?sign=e6cc3c55ba3783046693b1d14f896fcc&t=1645018985');
+  background-size: 100% 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.refresh{
+  width: 100px;
+  font-size: 24px;
+  color: #999;
+  position: relative;
+  top: -80px;
+  right: -30px;
+}
+.to-login{
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  z-index: 9;
+}
+.to-login image{
+  width: 70px;
+  height: 30px;
+}
+/* .content-bg{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+} */
+.audioImg{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: -50px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.audioImg image{
+  width: 100px;
+  height: 100px;
+}

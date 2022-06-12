@@ -1,0 +1,17 @@
+/* pages/signIn/signIn.wxss */
+.page__bd{
+  width: 100vw;
+  position: relative;
+}
+image{
+  width: 100%;
+}
+.btn{
+  width: 110px;
+  height: 46px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: 37px;
+  right: 20px;
+}

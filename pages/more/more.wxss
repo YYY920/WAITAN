@@ -1,0 +1,54 @@
+.page__bd{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #F0EAE0;
+  /* overflow: hidden; */
+}
+image{
+  width: 100%;
+  position: absolute;
+  top: -70px;
+}
+.btn{
+  width: 100px;
+  height: 46px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: 65px;
+  right: 20px;
+  z-index: 9;
+}
+.to-login{
+  width: 100px;
+  height: 46px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+}
+.on-line{
+  width: 129px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 204px;
+  left: 40px;
+  z-index: 9;
+}
+.off-line{
+  width: 129px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 204px;
+  right: 40px;
+  z-index: 9;
+}

@@ -1,0 +1,21 @@
+<!--pages/offLine/offLine.wxml-->
+<view class="page__bd">
+  <view class="to-login" >
+    <image  bindtap="toLogin" src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/%E8%BF%94%E5%9B%9E%E9%94%AE.png?sign=13f7f6dc546fbe9379d88a34c3749c03&t=1644750613"
+    mode="widthFix" />
+  </view>
+
+  <view class="content-bg">
+    
+    <image src="{{imgSrc}}" mode="widthFix" />
+    <view class="refresh" bindtap='refresh'>刷新区域</view>
+  <!--当前为停止状态  -->
+  <view class='audioImg' wx:if="{{isplay==false}}" bindtap='play'>
+    <image style="border-radius:50%;" src='/images/play.jpg' />
+  </view>
+  <!--当前为播放状态  -->
+  <view class='audioImg'  wx:if="{{isplay==true}}" bindtap='stop'>
+    <image style="border-radius:50%;" src='/images/pause.jpg' />
+  </view>
+</view>
+</view>

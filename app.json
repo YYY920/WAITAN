@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/entrance/entrance",
+    "pages/signIn/signIn",
+    "pages/more/more",
+    "pages/offLine/offLine",
+    "pages/lineDetail2/lineDetail",
+    "pages/lineDetail/lineDetail",
+    "pages/onLine/onLine",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C7BAA2",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F6F6"
+  },
+  "tabBar": {
+    "backgroundColor": "#F0EAE0",
+    "color": "#756448",
+    "selectedColor": "#241805",
+    "list": [
+      {
+        "pagePath": "pages/entrance/entrance",
+        "text": "首页",
+        "iconPath": "./images/首页off.png",
+        "selectedIconPath": "./images/首页on.png"
+      },
+      {
+        "pagePath": "pages/lineDetail/lineDetail",
+        "text": "构件",
+        "iconPath": "./images/行程off.png",
+        "selectedIconPath": "./images/行程on.png"
+      },
+      {
+        "pagePath": "pages/offLine/offLine",
+        "text": "云游",
+        "iconPath": "./images/足迹off.png",
+        "selectedIconPath": "./images/足迹on.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "我们",
+        "iconPath": "./images/我的off.png",
+        "selectedIconPath": "./images/我的on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

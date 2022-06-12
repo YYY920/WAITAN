@@ -1,0 +1,35 @@
+<!--pages/signIn/signIn.wxml-->
+
+<view class="page__bd">
+  <view class="to-login" >
+    <image  bindtap="toLogin" src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/%E8%BF%94%E5%9B%9E%E9%94%AE.png?sign=13f7f6dc546fbe9379d88a34c3749c03&t=1644750613"
+    mode="widthFix" />
+  </view>
+  <view class="img-div">
+    <image src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/a.%E5%BB%BA%E7%AD%91%E6%95%85%E4%BA%8B.png?sign=dfb426ddbf3fb01843819fdf5495913d&t=1644751473" alt="" srcset=""/>
+  </view>
+  <view class="img-div click-div">
+    <image wx:for="{{aList}}" wx:key="{{item.detailCode}}" src="{{item.url}}" bindtap="toDetail" data-id='{{item.detailCode}}'  alt=""/>
+  </view>
+  <view class="img-div title-div">
+    <image src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/b.%E5%BB%BA%E7%AD%91%E9%A3%8E%E6%A0%BC%E6%BC%94%E5%8F%98.png?sign=e0a250d78640247b2df54b7b2b37383a&t=1644752846" alt="" srcset=""/>
+  </view>
+  <view class="img-div click-div">
+    <image wx:for="{{bList}}" wx:key="{{item.detailCode}}" src="{{item.url}}" bindtap="toDetail" data-id='{{item.detailCode}}'  alt=""/>
+  </view>
+
+  <view class="img-div title-div">
+    <image src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/c.%E5%BB%BA%E7%AD%91%E5%85%83%E7%B4%A0.png?sign=91b52f2e62b7116ee531194812e54e4c&t=1644752945" alt="" srcset=""/>
+  </view>
+  <view class="img-div click-div">
+    <image wx:for="{{cList}}" wx:key="{{item.detailCode}}" src="{{item.url}}" bindtap="toDetail" data-id='{{item.detailCode}}'  alt=""/>
+  </view>
+
+  <view class="img-div title-div">
+    <image src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/online/d.%E5%BD%93%E4%BB%A3%E5%BB%BA%E7%AD%91%E5%86%8D%E7%94%9F.png?sign=bf6aa42c4dc9221646058f8d54828e05&t=1644752978" alt="" srcset=""/>
+  </view>
+  <view class="img-div click-div">
+    <image wx:for="{{dList}}" wx:key="{{item.detailCode}}" src="{{item.url}}" bindtap="toDetail" data-id='{{item.detailCode}}'  alt=""/>
+  </view>
+
+</view>
