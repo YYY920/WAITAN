@@ -33,7 +33,7 @@ Page({
     // })
     wx.showModal({
       title: '提示',
-      content: '尚在开发中',
+      content: '尚在完善中',
       success (res) {
         if (res.confirm) {
           console.log('用户点击确定')
