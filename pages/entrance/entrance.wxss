@@ -10,11 +10,36 @@
 }
 .scroll{
   height:60%;
-  background-image: url(http://m.qpic.cn/psc?/V501yCYr2T66Ft3LZCTn285oBb0gYVJu/ruAMsa53pVQWN7FLK88i5mRmTWl8efGE1O5hziRA.GX..mt66*lq9zWMKUY8tYswKWfHPOrmmSDhZb7zJSSMHHqvHGN.2Fy2QiXYmpwrbCw!/b&bo=OARMBwAAAAADh9U!&rf=viewer_4);
   width: 105%;
   display: flex;
   align-items: center;
   flex-direction: column; 
+  background-color:rgb(248, 239, 220);
+}
+.bookpage{
+  width: 100%;
+  height:14%;
+  background-color:rgb(248, 239, 220);
+  overflow: hidden;
+}
+.front{
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.biao{
+  width: 80%;
+  height:100%;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10rpx; 
+  margin-left: auto;
+  margin-right: auto;  
 }
 .scrollView{
   display: flex;

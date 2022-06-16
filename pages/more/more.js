@@ -4,44 +4,20 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+   
   },
   //事件处理函数
+  information:function(){
+    wx.navigateTo({
+      url:  "/pages/more/information/information",
+    })
+  },
+  AboutUs: function() {
+    wx.navigateTo({
+      url:  "/pages/more/AboutUs/AboutUs",
+    })
+  },
  
-  toLogin: function() {
-    wx.reLaunch({
-      url:  "/pages/index/index",
-    })
-  },
-  tapName: function() {
-    // wx.navigateTo({
-    //   url: '../logs/logs'
-    // })
-    wx.showModal({
-      title: '提示',
-      content: '尚在开发中',
-      success (res) {
-        if (res.confirm) {
-          console.log('用户点击确定')
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      }
-    })    
-  },
-  onLine: function() {
-    wx.navigateTo({
-      url: '../onLine/onLine'
-    })
-  },
-  offLine: function() {
-    wx.navigateTo({
-      url: '../offLine/offLine'
-    })
-  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

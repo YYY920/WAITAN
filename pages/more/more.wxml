@@ -1,6 +1,17 @@
 <!--index.wxml-->
 <view class="page__bd">
-  <view class="to-login" bindtap="toLogin"></view>
-  <image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/ALL/构件、我的页-背景2.png" mode="scaleToFill" style="height: 115%;"/>
-  <view class="btn" bindtap="tapName"></view>
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/ALL/构件、我的页-背景2.png" mode="scaleToFill" style="position: fixed;width: 100%;height: 100%;" />
+  <view class="list">
+    <view class="listItem">
+      <text>相关资讯</text>
+      <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/0.相关资讯小标题封面.png" mode="scaleToFill" style="height: 100%;width: 100%;"bindtap="information" />
+    </view>
+    <view class="listItem">
+      <text>关于我们</text>
+      <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/0.关于我们小标题封面.png" mode="scaleToFill" style="height: 100%;width: 100%;"bindtap="AboutUs"/>
+    </view>
+  </view>
+
+
+
 </view>

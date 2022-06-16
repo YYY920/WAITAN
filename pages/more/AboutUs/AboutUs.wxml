@@ -1,0 +1,22 @@
+<!--pages/more/AboutUs/AboutUs.wxml-->
+<view class="page__bd">
+  <view class="text">致谢</view>
+  <view class="text" style="margin-top: 10px;font-size: 10px;">- - - - - - - - - - - - - - - - - - - - - - - - - -</view>
+  <view class="block">
+    <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/概念设计图.jpg" mode="scaleToFill" bindtap="information" style="width:100%;height: 400rpx;margin-top:10px;margin-bottom:5px;" />
+    <text class="content"decode="{{true}}">
+      &emsp;&emsp;在完成建筑可阅读一百年外滩建筑小程序过程中，有许多人向我们提供了帮助，他们大部分都愿意花时间了解我们的研究主题，耐心地完成我们的调研问卷，因此我们能够顺利地完成调查，获得比较充分的分析材料和佐证材料，并且做出成果。我们诚挚地感谢那些不知姓名却愿意给予帮助的人们，如果没有他们的支持我们将很难获得进展。
+      &emsp;&emsp;感谢我们的指导老师，一位是来自上海大学计算机工程与科学学院的沈俊老师，对我们的小程序进行技术指导，帮助我们突破很多技术壁垒，并且提出很多宝贵的意见。另一位是来自上海大学美术学院的黄一迁老师，在选题、文字材料和问卷题目的编写上给予了悉心的指导。
+    </text>
+  </view>
+  <view class="block">
+    <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/团队组成.jpg" mode="scaleToFill" bindtap="information" style="width:100%;height: 400rpx;margin-top:10px;margin-bottom:5px;" />
+    <text class="content"decode="{{true}}">
+      &emsp;&emsp;我们的团队包含了建筑、美术、计算机专业，在选题上我们聚焦于文化产业、建筑阅读、数字化、共享等概念，结合来自不同专业的特长。在文字介绍方面，我们进行实地考察，并采纳老师建议，多次修改，做出考证。
+    </text>
+  </view>
+  <view class="block">
+    <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/实地考察.jpg" mode="scaleToFill" bindtap="information" style="width:100%;height: 400rpx;margin-top:10px;margin-bottom:10px;" />
+  </view>
+
+</view>

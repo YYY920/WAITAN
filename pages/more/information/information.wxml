@@ -1,0 +1,38 @@
+<!--pages/more/information/information.wxml-->
+<view class="page__bd">
+  <view class="text">沪说外滩，展馆推荐</view>
+  <view class="text" style="margin-top: 10px;font-size: 10px;">- - - - - - - - - - - - - - - - - - - - - - - - - -</view>
+  <view class="block">
+    <view class="title">
+      上海久事美术馆
+    </view>
+    <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/久事美术馆-0.png" mode="scaleToFill" bindtap="information" style="width:100%;height: 300rpx;margin-top:10px;margin-bottom:10px;" />
+    <view class="content">
+      外滩18号久事艺术空间位于外滩十八号(2楼)，原麦加利银行大楼，现为上海历史保护建筑。该场馆是典雅精致的艺术长廊，致力于呈现优秀的海派艺术，扶持中国优秀青年艺术家。
+    </view>
+    <swiper class="swiper" bindchange="swiperChange" previous-margin="55rpx" next-margin="50rpx" circular autoplay>
+      <block wx:for="{{jiushi}}">
+        <swiper-item class="turnItem">
+            <image class="itemImg" src="{{item}}"></image>
+          </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="text" style="margin-top: 10px;font-size: 10px;">- - - - - - - - - - - - - - - - - -</view>
+  <view class="block">
+    <view class="title">
+      外滩美术馆
+    </view>
+    <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/AboutUS/外滩美术馆-0.png" mode="scaleToFill" bindtap="information" style="width:100%;height: 300rpx;margin-top:10px;margin-bottom:10px;" />
+    <view class="content">
+      上海外滩美术馆RAM，全称Rockbund Art Museum, 曾是中国最早的博物馆之一 ——上海博物院。以“人文的关照、艺术的推广”为使命，致力于当代艺术研究，是一个艺术推广与交流的国际平台。
+    </view>
+    <swiper class="swiper" bindchange="swiperChange" previous-margin="55rpx" next-margin="50rpx" circular autoplay>
+      <block wx:for="{{RAM}}">
+        <swiper-item class="turnItem">
+            <image class="itemImg" src="{{item}}"></image>
+          </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

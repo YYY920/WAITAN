@@ -1,6 +1,6 @@
 <!--index.wxml-->
+<image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/起始页-背景.png"style="height:100%;width: 100%;  position: absolute;" mode="scaleToFill" />
 <view class="page__bd">
-  <image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/entrance/起始页-背景.png"style="height:115%" mode="scaleToFill" />
-  <image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/entrance/起始页-进入小程序.png" style="height: 70px;width: 200px;position: fixed;top: 200px;left:20%" bindtap="entrance"/>
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/起始页-进入小程序.png" style="height: 70px;width: 200px;" bindtap="entrance"/>
 
 </view>

@@ -1,0 +1,15 @@
+<!--pages/goujian/goujian.wxml-->
+<view class="page__bd">
+
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/ALL/构件、我的页-背景2.png" mode="scaleToFill" style="position: fixed;width: 100%;height: 100%;" />
+  <view class="goujian">
+    <view class="text">盘一盘那些外滩建筑中你所不知道的小细节</view>
+    <view class="goujianItem">
+      <view wx:for="{{imgAtext}}" wx:for-index="index" wx:for-item="item" style="margin-left: 3vw;width: 40%;">
+        <text class="text">{{item.text}}</text>
+        <image style="height: 250rpx;width: 100%;" src="{{item.img}}"bindtap="tapName"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,6 +1,6 @@
 <!--pages/signIn/signIn.wxml-->
 
 <view class="page__bd">
-  <image src="https://6465-dev-sgb12-1256211978.tcb.qcloud.la/show/index.jpg?sign=604978d4682a38d3be1e14af3daabadb&t=1644735259" mode="widthFix" />
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/tiaoman.png" mode="widthFix" />
   <view class="btn" bindtap="tapName"></view>
 </view>

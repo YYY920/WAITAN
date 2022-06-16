@@ -1,10 +1,21 @@
 <!--pages/entrance/entrance.wxml-->
 <view class="page__bd">
-<image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/entrance/组 288.png" style="width: 80%;height:35%;top: 0px;"bindtap="cartoon">
+<image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/组 288.png" style="width: 80%;height:30%;top: 0px;"bindtap="cartoon">
+</image>
+<view class="bookpage">
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/后.png" style="height:10%;position: fixed;width: 100%;" mode="scaleToFill"/>
+  <view class="front" >
+    <view class="biao">
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/biao1.png" style="width: 100%;height:100%;top: 0px;z-index: 1;"bindtap="story"/>
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/biao2.png" style="width: 100%;height:100%;top: 0px;z-index:1"bindtap="styleChange"/>
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/biao3.png" style="width: 100%;height:100%;top: 0px;z-index: 1;"bindtap="building"/>
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/biao4.png" style="width: 100%;height:100%;top: 0px;z-index: 1;"bindtap="rebuild"/>
+</view>
+<image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/前.png"style="height:5%;position: fixed;width: 100%;z-index: 2;margin-top:80rpx;" mode="scaleToFill"/>
+  </view>
+</view>
 
-</image>
-<image src="cloud://competition-6gmlvy272cff9f71.636f-competition-6gmlvy272cff9f71-1305662190/entrance/0.0 首页-小标题.png" style="width: 105%;height:14%;top: 0px;">
-</image>
+
 <scroll-view scroll-y class="scroll" >
 <view wx:for="{{imgAtext}}"  wx:for-index="index"  wx:for-item="item" class="scrollView"style="margin-left: 3vw;">
 <text style="font-size:15px;color:#756448;">{{item.text}}</text>

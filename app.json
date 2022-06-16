@@ -8,7 +8,14 @@
     "pages/lineDetail2/lineDetail",
     "pages/lineDetail/lineDetail",
     "pages/onLine/onLine",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/waitanStory/waitanStory",
+    "pages/styleChange/styleChange",
+    "pages/buildingE/buildingE",
+    "pages/buildingR/buildingR",
+    "pages/goujian/goujian",
+    "pages/more/information/information",
+    "pages/more/AboutUs/AboutUs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,7 +35,7 @@
         "selectedIconPath": "./images/首页on.png"
       },
       {
-        "pagePath": "pages/lineDetail/lineDetail",
+        "pagePath": "pages/goujian/goujian",
         "text": "构件",
         "iconPath": "./images/行程off.png",
         "selectedIconPath": "./images/行程on.png"
