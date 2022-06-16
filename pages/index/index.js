@@ -10,27 +10,27 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
- entrance: function() {
+  entrance: function () {
     wx.switchTab({
       url: '../entrance/entrance'
     })
   },
-  toLogin: function() {
+  toLogin: function () {
     wx.reLaunch({
-      url:  "/pages/signIn/signIn",
+      url: "/pages/signIn/signIn",
     })
   },
-  tapName: function() {
+  tapName: function () {
     wx.reLaunch({
-      url:  "/pages/more/more",
-    })  
+      url: "/pages/more/more",
+    })
   },
-  onLine: function() {
+  onLine: function () {
     wx.navigateTo({
       url: '../onLine/onLine'
     })
   },
-  offLine: function() {
+  offLine: function () {
     wx.navigateTo({
       url: '../offLine/offLine'
     })
@@ -41,7 +41,7 @@ Page({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
@@ -63,12 +63,35 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
-  }
+
+  // 页面渲染完成 
+
+  onReady: function () {
+
+    var circleCount = 0;
+
+    // 心跳的外框动画 
+
+    this.animationMiddleHeaderItem = wx.createAnimation({
+      duration: 1000,
+      timingFunction: 'linear',
+      delay: 100,
+      transformOrigin: '50% 50%',
+      success: function (res) {}
+    });
+    setInterval(function () {
+      if (circleCount % 2 == 0) {
+        this.animationMiddleHeaderItem.scale(1.15).step();
+      } else {
+        this.animationMiddleHeaderItem.scale(1.0).step();
+      }
+      this.setData({
+        animationMiddleHeaderItem: this.animationMiddleHeaderItem.export()
+      });
+      circleCount++;
+      if (circleCount == 1000) {
+        circleCount = 0;
+      }
+    }.bind(this), 1000);
+  },
 })

@@ -1,6 +1,7 @@
 <!--index.wxml-->
 <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/起始页-背景.png"style="height:100%;width: 100%;  position: absolute;" mode="scaleToFill" />
 <view class="page__bd">
-  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/起始页-进入小程序.png" style="height: 70px;width: 200px;" bindtap="entrance"/>
-
+  <view class="bottomMiddleHeaderItemSubView">
+  <image src="cloud://thebund-9gtwo84bc6956c3a.7468-thebund-9gtwo84bc6956c3a-1312470352/entrance/起始页-进入小程序.png" style="height: 70px;width: 200px;" bindtap="entrance"animation="{{animationMiddleHeaderItem}}"/>
+</view>
 </view>
